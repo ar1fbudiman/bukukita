@@ -26,3 +26,11 @@ const nav = document.querySelector(".nav-item_container");
 toggle.addEventListener("click", function () {
   nav.classList.toggle("slide");
 });
+
+// Toggle author menu
+const toggleAuthor = document.querySelector(".floating-btn");
+const profile = document.querySelector(".column-author_container");
+
+toggleAuthor.addEventListener("click", function () {
+  profile.classList.toggle("toggle-me");
+});
